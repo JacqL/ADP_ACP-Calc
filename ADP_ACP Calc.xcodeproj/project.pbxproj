@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		470EE6191D710B6E009E642E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470EE6181D710B6E009E642E /* AppDelegate.swift */; };
+		470EE61B1D710B6E009E642E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470EE61A1D710B6E009E642E /* ViewController.swift */; };
+		470EE61E1D710B6E009E642E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470EE61C1D710B6E009E642E /* Main.storyboard */; };
+		470EE6201D710B6E009E642E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470EE61F1D710B6E009E642E /* Assets.xcassets */; };
+		470EE6231D710B6E009E642E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470EE6211D710B6E009E642E /* LaunchScreen.storyboard */; };
+		470EE62E1D710B6E009E642E /* ADP_ACP_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470EE62D1D710B6E009E642E /* ADP_ACP_CalcTests.swift */; };
+		470EE6391D710B6E009E642E /* ADP_ACP_CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470EE6381D710B6E009E642E /* ADP_ACP_CalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		470EE62A1D710B6E009E642E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470EE60D1D710B6D009E642E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470EE6141D710B6D009E642E;
+			remoteInfo = "ADP_ACP Calc";
+		};
+		470EE6351D710B6E009E642E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470EE60D1D710B6D009E642E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470EE6141D710B6D009E642E;
+			remoteInfo = "ADP_ACP Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		470EE6151D710B6D009E642E /* ADP_ACP Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADP_ACP Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		470EE6181D710B6E009E642E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		470EE61A1D710B6E009E642E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		470EE61D1D710B6E009E642E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		470EE61F1D710B6E009E642E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		470EE6221D710B6E009E642E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		470EE6241D710B6E009E642E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470EE6291D710B6E009E642E /* ADP_ACP CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADP_ACP CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		470EE62D1D710B6E009E642E /* ADP_ACP_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADP_ACP_CalcTests.swift; sourceTree = "<group>"; };
+		470EE62F1D710B6E009E642E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470EE6341D710B6E009E642E /* ADP_ACP CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADP_ACP CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		470EE6381D710B6E009E642E /* ADP_ACP_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADP_ACP_CalcUITests.swift; sourceTree = "<group>"; };
+		470EE63A1D710B6E009E642E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		470EE6121D710B6D009E642E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470EE6261D710B6E009E642E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470EE6311D710B6E009E642E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		470EE60C1D710B6D009E642E = {
+			isa = PBXGroup;
+			children = (
+				470EE6171D710B6E009E642E /* ADP_ACP Calc */,
+				470EE62C1D710B6E009E642E /* ADP_ACP CalcTests */,
+				470EE6371D710B6E009E642E /* ADP_ACP CalcUITests */,
+				470EE6161D710B6D009E642E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		470EE6161D710B6D009E642E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				470EE6151D710B6D009E642E /* ADP_ACP Calc.app */,
+				470EE6291D710B6E009E642E /* ADP_ACP CalcTests.xctest */,
+				470EE6341D710B6E009E642E /* ADP_ACP CalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		470EE6171D710B6E009E642E /* ADP_ACP Calc */ = {
+			isa = PBXGroup;
+			children = (
+				470EE6181D710B6E009E642E /* AppDelegate.swift */,
+				470EE61A1D710B6E009E642E /* ViewController.swift */,
+				470EE61C1D710B6E009E642E /* Main.storyboard */,
+				470EE61F1D710B6E009E642E /* Assets.xcassets */,
+				470EE6211D710B6E009E642E /* LaunchScreen.storyboard */,
+				470EE6241D710B6E009E642E /* Info.plist */,
+			);
+			path = "ADP_ACP Calc";
+			sourceTree = "<group>";
+		};
+		470EE62C1D710B6E009E642E /* ADP_ACP CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				470EE62D1D710B6E009E642E /* ADP_ACP_CalcTests.swift */,
+				470EE62F1D710B6E009E642E /* Info.plist */,
+			);
+			path = "ADP_ACP CalcTests";
+			sourceTree = "<group>";
+		};
+		470EE6371D710B6E009E642E /* ADP_ACP CalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				470EE6381D710B6E009E642E /* ADP_ACP_CalcUITests.swift */,
+				470EE63A1D710B6E009E642E /* Info.plist */,
+			);
+			path = "ADP_ACP CalcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		470EE6141D710B6D009E642E /* ADP_ACP Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470EE63D1D710B6E009E642E /* Build configuration list for PBXNativeTarget "ADP_ACP Calc" */;
+			buildPhases = (
+				470EE6111D710B6D009E642E /* Sources */,
+				470EE6121D710B6D009E642E /* Frameworks */,
+				470EE6131D710B6D009E642E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADP_ACP Calc";
+			productName = "ADP_ACP Calc";
+			productReference = 470EE6151D710B6D009E642E /* ADP_ACP Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		470EE6281D710B6E009E642E /* ADP_ACP CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470EE6401D710B6E009E642E /* Build configuration list for PBXNativeTarget "ADP_ACP CalcTests" */;
+			buildPhases = (
+				470EE6251D710B6E009E642E /* Sources */,
+				470EE6261D710B6E009E642E /* Frameworks */,
+				470EE6271D710B6E009E642E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470EE62B1D710B6E009E642E /* PBXTargetDependency */,
+			);
+			name = "ADP_ACP CalcTests";
+			productName = "ADP_ACP CalcTests";
+			productReference = 470EE6291D710B6E009E642E /* ADP_ACP CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		470EE6331D710B6E009E642E /* ADP_ACP CalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470EE6431D710B6E009E642E /* Build configuration list for PBXNativeTarget "ADP_ACP CalcUITests" */;
+			buildPhases = (
+				470EE6301D710B6E009E642E /* Sources */,
+				470EE6311D710B6E009E642E /* Frameworks */,
+				470EE6321D710B6E009E642E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470EE6361D710B6E009E642E /* PBXTargetDependency */,
+			);
+			name = "ADP_ACP CalcUITests";
+			productName = "ADP_ACP CalcUITests";
+			productReference = 470EE6341D710B6E009E642E /* ADP_ACP CalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		470EE60D1D710B6D009E642E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jacques Laufer";
+				TargetAttributes = {
+					470EE6141D710B6D009E642E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					470EE6281D710B6E009E642E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 470EE6141D710B6D009E642E;
+					};
+					470EE6331D710B6E009E642E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 470EE6141D710B6D009E642E;
+					};
+				};
+			};
+			buildConfigurationList = 470EE6101D710B6D009E642E /* Build configuration list for PBXProject "ADP_ACP Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 470EE60C1D710B6D009E642E;
+			productRefGroup = 470EE6161D710B6D009E642E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				470EE6141D710B6D009E642E /* ADP_ACP Calc */,
+				470EE6281D710B6E009E642E /* ADP_ACP CalcTests */,
+				470EE6331D710B6E009E642E /* ADP_ACP CalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		470EE6131D710B6D009E642E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470EE6231D710B6E009E642E /* LaunchScreen.storyboard in Resources */,
+				470EE6201D710B6E009E642E /* Assets.xcassets in Resources */,
+				470EE61E1D710B6E009E642E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470EE6271D710B6E009E642E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470EE6321D710B6E009E642E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		470EE6111D710B6D009E642E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470EE61B1D710B6E009E642E /* ViewController.swift in Sources */,
+				470EE6191D710B6E009E642E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470EE6251D710B6E009E642E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470EE62E1D710B6E009E642E /* ADP_ACP_CalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470EE6301D710B6E009E642E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470EE6391D710B6E009E642E /* ADP_ACP_CalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		470EE62B1D710B6E009E642E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470EE6141D710B6D009E642E /* ADP_ACP Calc */;
+			targetProxy = 470EE62A1D710B6E009E642E /* PBXContainerItemProxy */;
+		};
+		470EE6361D710B6E009E642E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470EE6141D710B6D009E642E /* ADP_ACP Calc */;
+			targetProxy = 470EE6351D710B6E009E642E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		470EE61C1D710B6E009E642E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				470EE61D1D710B6E009E642E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		470EE6211D710B6E009E642E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				470EE6221D710B6E009E642E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		470EE63B1D710B6E009E642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		470EE63C1D710B6E009E642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		470EE63E1D710B6E009E642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADP_ACP Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacqueslaufer.ADP-ACP-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		470EE63F1D710B6E009E642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADP_ACP Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacqueslaufer.ADP-ACP-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		470EE6411D710B6E009E642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ADP_ACP CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacqueslaufer.ADP-ACP-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADP_ACP Calc.app/ADP_ACP Calc";
+			};
+			name = Debug;
+		};
+		470EE6421D710B6E009E642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ADP_ACP CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacqueslaufer.ADP-ACP-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADP_ACP Calc.app/ADP_ACP Calc";
+			};
+			name = Release;
+		};
+		470EE6441D710B6E009E642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ADP_ACP CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacqueslaufer.ADP-ACP-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ADP_ACP Calc";
+			};
+			name = Debug;
+		};
+		470EE6451D710B6E009E642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ADP_ACP CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacqueslaufer.ADP-ACP-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ADP_ACP Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		470EE6101D710B6D009E642E /* Build configuration list for PBXProject "ADP_ACP Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470EE63B1D710B6E009E642E /* Debug */,
+				470EE63C1D710B6E009E642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470EE63D1D710B6E009E642E /* Build configuration list for PBXNativeTarget "ADP_ACP Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470EE63E1D710B6E009E642E /* Debug */,
+				470EE63F1D710B6E009E642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		470EE6401D710B6E009E642E /* Build configuration list for PBXNativeTarget "ADP_ACP CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470EE6411D710B6E009E642E /* Debug */,
+				470EE6421D710B6E009E642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		470EE6431D710B6E009E642E /* Build configuration list for PBXNativeTarget "ADP_ACP CalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470EE6441D710B6E009E642E /* Debug */,
+				470EE6451D710B6E009E642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 470EE60D1D710B6D009E642E /* Project object */;
+}
